@@ -17,7 +17,7 @@ import {
 import { FaTrash } from "react-icons/fa";
 
 const Index = () => {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([{ text: "Send the message in the picture to Lovable.", completed: false }]);
   const [inputValue, setInputValue] = useState("");
 
   const addTodo = () => {
